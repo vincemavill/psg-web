@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg-color-red {
+    background-color: #FF143F;
+}
+
+.bg-color-dark {
+    background-color: #2A3747;
+}
+
+.bg-color-light {
+    background-color: #D1D1D1;
+}
+
+.text-color-red {
+    color: #FF143F;
+}
+
+.text-color-dark {
+    color: #2A3747;
+}
+
+.text-color-light {
+    color: #D1D1D1;
+}
+
+.page-banner {
+    background-image: url("./assets/Images/about/banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.home-banner {
+    background-image: url("./assets/Images/home/banner.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src:  url('/src/assets/Fonts/Poppins/Poppins-Black.ttf') format('ttf'),
+        url('/src/assets/Fonts/Poppins/Poppins-Bold.ttf') format('ttf'),
+        url('/src/assets/Fonts/Poppins/Poppins-ExtraBold.ttf') format('ttf'),
+        url('/src/assets/Fonts/Poppins/Poppins-ExtraLight.ttf') format('ttf'),
+        url('/src/assets/Fonts/Poppins/Poppins-Light.ttf') format('ttf'),
+        url('/src/assets/Fonts/Poppins/Poppins-Medium.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LemonMilk';
+  src:  url('/src/assets/Fonts/LemonMilk/LEMONMILK-Bold.otf') format('opentype'),
+        url('/src/assets/Fonts/LemonMilk/LEMONMILK-Light.otf') format('opentype'),
+        url('/src/assets/Fonts/LemonMilk/LEMONMILK-Medium.otf') format('opentype'),
+        url('/src/assets/Fonts/LemonMilk/LEMONMILK-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
