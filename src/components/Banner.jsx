@@ -6,18 +6,17 @@ const navigation = [
   { name: "Motors", href: "#", current: false },
   { name: "Transformers", href: "#", current: false },
 ];
-export default function App({ label }) {
+export default function App({ label, quote }) {
   return (
     <>
       <div className="flex items-center justify-center page-banner h-[400px]">
-        <h1 class="block text-color-dark text-[70px] font-bold font-lemon text-center">
+        <h1 className="block text-color-dark text-[40px] lg:text-[70px] font-bold font-lemon text-center">
           {label}
         </h1>
       </div>
       <div className="py-5 bg-color-dark">
         <h1 className="text-center text-white text-xl font-poppins italic font-bold">
-          "Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry."
+          {quote}
         </h1>
       </div>
     </>

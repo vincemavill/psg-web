@@ -40,6 +40,12 @@
     background-size:cover;
 }
 
+.about-banner {
+    background-image: url("./assets/Images/about/pgs history.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
 @font-face {
   font-family: 'Poppins';
   src:  url('/src/assets/Fonts/Poppins/Poppins-Black.ttf') format('ttf'),

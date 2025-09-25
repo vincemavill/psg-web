@@ -52,7 +52,7 @@ export default function App() {
             ever since the 1500s,
           </p>
           <div className="relative flex min-h-[50px] lg:min-h-[100px] items-center justify-between">
-            <div class="grid grid-cols-3 gap-20  w-full py-4">
+            <div className="grid grid-cols-3 gap-20  w-full py-4">
               <div className="col-span-3 lg:col-span-1 flex items-center justify-center">
                 <div className="max-w-sm mx-auto bg-white rounded-3xl shadow-lg overflow-hidden">
                   {/* Top Image */}
@@ -247,7 +247,7 @@ export default function App() {
         </div>
         {/* -------------WHO ARE WE------------- */}
         <div className="mx-auto max-w-7xl px-10 lg:px-8">
-          <div class="grid grid-cols-2  py-10 w-full content-center ">
+          <div className="grid grid-cols-2  py-10 w-full content-center ">
             <div className="col-span-2 lg:col-span-1">
               <div className="flex items-center justify-center py-10">
                 <div className="border rounded-3xl">
@@ -282,7 +282,7 @@ export default function App() {
         </div>
         {/* -------------ONE OF THE LARGEST------------- */}
         <div className="mx-auto   bg-color-dark">
-          <div class="grid grid-cols-2   w-full content-center ">
+          <div className="grid grid-cols-2   w-full content-center ">
             <div className="col-span-2 lg:col-span-1  flex items-center ">
               <div className="space-y-4 px-10 lg:px-20  items-center justify-center py-10">
                 <h2 className="text-lg lg:text-3xl font-bold text-white   font-lemon">
@@ -309,7 +309,7 @@ export default function App() {
         {/* -------------WHAT PEOPLE SAY------------- */}
         <div className="mx-auto   bg-slate-100">
           <div className="py-10 mx-auto max-w-[1500px] px-2 lg:px-8  ">
-            <div class="grid grid-cols-3 gap-10 px-4 sm:px-6 lg:px-8 w-full content-center ">
+            <div className="grid grid-cols-3 gap-10 px-4 sm:px-6 lg:px-8 w-full content-center ">
               <div className="col-span-3 lg:col-span-1   items-center justify-center">
                 <div className="">
                   <h2 className="text-3xl lg:text-[50px]  font-bold text-color-dark   font-lemon leading-none">
@@ -374,7 +374,7 @@ export default function App() {
         </div>
         {/* -------------PROVISION------------- */}
         <div className="mx-auto   bg-color-red">
-          <div class="grid grid-cols-2   w-full content-center ">
+          <div className="grid grid-cols-2   w-full content-center ">
             <div className="col-span-2 lg:col-span-1  flex items-center ">
               <div className="space-y-4 px-10 lg:px-20  items-center justify-center py-10">
                 <h2 className="text-2xl lg:text-[50px]  font-bold text-white   font-lemon leading-none">
@@ -401,7 +401,7 @@ export default function App() {
             OUR PARTNERS
           </h1>
           <div className="relative flex min-h-[50px] lg:min-h-[100px] items-center justify-between">
-            <div class="grid grid-cols-4 gap-10  w-full py-4">
+            <div className="grid grid-cols-4 gap-10  w-full py-4">
               <div className="col-span-4 lg:col-span-1 flex items-center justify-center">
                 <img
                   alt="Your Company"
