@@ -7,7 +7,7 @@ export default function App() {
           <div class="grid grid-cols-2 gap-10 py-10 w-full content-center ">
             <div className="col-span-2 lg:col-span-1  flex items-center">
               <div className="">
-                <h1 class="text-color-dark text-[70px] font-bold font-lemon leading-none">
+                <h1 class="text-color-dark text-[40px] lg:text-[70px] font-bold font-lemon leading-none">
                   ANY SIZE
                   <br />
                   ANY VOLTAGE
@@ -27,7 +27,7 @@ export default function App() {
                 <img
                   alt="Your Company"
                   src={psglogowhite}
-                  className="h-[300px] lg:h-[350px] w-auto"
+                  className="w-[300px] lg:w-[350px] h-auto"
                 />
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function App() {
       </div>
       <div className="py-5 bg-color-dark">
         <h1 className="text-center text-white text-3xl font-poppins italic font-normal">
-          "Lorem Ipsum is simply dummy text of the printing"
+          "Right the First Time - On Time - Every Time"
         </h1>
       </div>
     </>
